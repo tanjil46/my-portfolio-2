@@ -17,7 +17,6 @@ const Banner = () => {
 
 
 
-
     return (
         <div className='bg-cover h-screen flex md:flex-row flex-col items-center justify-between p-10' style={backGroundImage}>
 
@@ -42,8 +41,10 @@ const Banner = () => {
       
        />
           <div className="">
-          <a href='/public/my resume 2.pdf' download='resume download' 
-             className='btn '>MY RESUME</a>
+
+           
+           <a href='/public/my resume 2.pdf' download='resume download' 
+             className='btn '>DOWNLOAD RESUME</a> 
           </div>
 
 
