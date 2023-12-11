@@ -43,7 +43,7 @@ const Banner = () => {
           <div className="">
          
            
-            <a type='file' href='/public/resume.pdf' download='resume download' 
+            <a type='file' href='/public/Resume.pdf.pdf' download='resume.pdf' 
              className='btn '>DOWNLOAD RESUME</a>  
           </div>
 
