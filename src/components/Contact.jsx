@@ -9,7 +9,7 @@ const Contact = () => {
 
 
 
-const formHandler=(e)=>{
+ const formHandler=(e)=>{
 e.preventDefault()
 emailjs.sendForm('service_48nbrtk', 'template_tbp96r4', form.current, '_pe9KJl66OcsHBRsb')
       .then((result) => {
