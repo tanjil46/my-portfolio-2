@@ -11,6 +11,7 @@ import Home from './components/Home';
 import Aboutme from './components/Aboutme';
 import Myprojets from './components/Myprojets';
 import Contact from './components/Contact';
+import Addprojects from './components/UPload/Addprojects';
 
 const router=createBrowserRouter([
 
@@ -33,6 +34,10 @@ const router=createBrowserRouter([
       {
         path:'/contact',
         element:<Contact></Contact>
+      },
+      {
+        path:'/projects',
+        element:<Addprojects></Addprojects>
       }
     ]
    }

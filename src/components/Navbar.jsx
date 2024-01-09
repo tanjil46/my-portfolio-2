@@ -30,6 +30,8 @@ const barHandler=()=>{
                 <Link to='/mypro' className="text-slate-300 font-bold text-lg  hover:border-b-2 hover:border-yellow-600">MY PROJECTS</Link>
                 <Link to='/about' className="text-slate-300 font-bold text-lg  hover:border-b-2 hover:border-yellow-600">ABOUT ME</Link>
                 <Link to='/contact' className="text-slate-300 font-bold text-lg hover:border-b-2 hover:border-yellow-600 ">CONTACT ME</Link>
+                <Link to='/projects' className="text-slate-300 hidden font-bold text-lg hover:border-b-2 hover:border-yellow-600 ">Add Projects</Link>
+
             </ul>
 
           </div>
